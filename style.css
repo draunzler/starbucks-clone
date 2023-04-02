@@ -49,3 +49,18 @@ header ul li a{
     justify-content: space-between;
     align-items: center;
 }
+.textBox{
+    position: relative;
+    max-width: 600px;
+}
+.textBox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
