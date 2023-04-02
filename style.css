@@ -42,6 +42,9 @@ header ul li a{
     margin-left: 40px;
     text-decoration: none;
 }
+header ul li a:hover{
+    color: #017143;
+}
 .content{
     position: relative;
     width: 100%;
@@ -77,6 +80,10 @@ header ul li a{
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    transition: all .5s;
+}
+.textBox a:hover{
+    transform: scale(1.2);
 }
 .imgBox{
     width: 600px;
